@@ -1,0 +1,5 @@
+B = ones(30)
+A = ones(20)
+sel = (20:1)
+C = B(sel,:)
+disp(C)
